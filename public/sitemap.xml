@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <!-- Páginas principais -->
+  <url>
+    <loc>https://servicoja-eight.vercel.app/</loc>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/login</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/register</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/forgot-password</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/reset-password</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/services</loc>
+    <priority>0.9</priority>
+  </url>
+  <!-- Exemplo de rota dinâmica por tipo de serviço -->
+  <url>
+    <loc>https://servicoja-eight.vercel.app/services/electricista</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/terms</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/privacy</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/about</loc>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/how-it-works</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/become-worker</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/help</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Páginas de workers -->
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/dashboard</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/verify</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/bookings</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/schedule</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/earnings</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/settings</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Páginas de clientes -->
+  <url>
+    <loc>https://servicoja-eight.vercel.app/client/dashboard</loc>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/client/bookings</loc>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Mensagens e admin -->
+  <url>
+    <loc>https://servicoja-eight.vercel.app/messages</loc>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/admin</loc>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Páginas de perfis e reservas dinâmicas (exemplo) -->
+  <url>
+    <loc>https://servicoja-eight.vercel.app/worker/1</loc>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://servicoja-eight.vercel.app/booking/1</loc>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
