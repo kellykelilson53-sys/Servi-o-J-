@@ -1,6 +1,7 @@
+// src/pages/AuthCallback.jsx
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import { supabase } from "../integrations/supabase/client";
+import { supabase } from "@/integrations/supabase/client"; // ajuste o caminho conforme seu projeto
 
 export default function AuthCallback() {
   const navigate = useNavigate();
@@ -8,7 +9,7 @@ export default function AuthCallback() {
   useEffect(() => {
     async function handleAuth() {
       try {
-        // Captura o token do link de confirmação
+        // Captura a sessão do link de confirmação do Supabase
         const { data, error } = await supabase.auth.getSessionFromUrl({ storeSession: true });
 
         if (error) {
@@ -17,7 +18,7 @@ export default function AuthCallback() {
         }
 
         if (data?.session) {
-          // Login bem-sucedido, redireciona para /services
+          // Login bem-sucedido → redireciona para /services
           navigate("/services");
         } else {
           console.log("Nenhuma sessão encontrada.");
@@ -30,5 +31,9 @@ export default function AuthCallback() {
     handleAuth();
   }, [navigate]);
 
-  return <p>Autenticando...</p>;
+  return (
+    <div style={{ textAlign: "center", marginTop: "50px" }}>
+      <p>Autenticando...</p>
+    </div>
+  );
 }
