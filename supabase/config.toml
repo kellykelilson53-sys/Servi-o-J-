@@ -1,0 +1,7 @@
+project_id = "pguqasxxgjlzlwkhbrut"
+
+[functions.verify-documents]
+verify_jwt = false
+
+[functions.calculate-distance]
+verify_jwt = false

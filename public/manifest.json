@@ -1,0 +1,17 @@
+{
+  "name": "ServiçoJá",
+  "short_name": "ServiçoJá",
+  "description": "Encontre profissionais verificados em Angola",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#faf8f5",
+  "theme_color": "#f97316",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/favicon.ico",
+      "sizes": "64x64",
+      "type": "image/x-icon"
+    }
+  ]
+}
