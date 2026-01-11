@@ -72,7 +72,6 @@ const App = () => (
                 <Route path="/how-it-works" element={<HowItWorks />} />
                 <Route path="/become-worker" element={<BecomeWorker />} />
                 <Route path="/help" element={<Help />} />
-                <Route path="/auth/callback" element={<AuthCallback />} />
                 <Route path="*" element={<NotFound />} />
               </Routes>
             </BrowserRouter>
